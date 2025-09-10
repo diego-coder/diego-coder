@@ -41,11 +41,11 @@ These efforts often involve complex code paths, legacy compatibility, and commun
 
 ### Notable Issue Triage & Resolution
 
-- **langchain-ai/langchain [#31335](https://github.com/langchain-ai/langchain/issues/31335)**: **(✅ Closed)** Diagnosed a critical bug in the Qwen3-32B chat template as the root cause for structured output failures. Provided a detailed analysis and patch that led to the issue's closure by maintainers.
-
-- **langchain-ai/langgraph [#5165](https://github.com/langchain-ai/langgraph/issues/5165)**: **(✅ Closed)** Confirmed bug and provided a minimal reproducible example, helping the maintainers to quickly validate and close the issue.
-
-- **langchain-ai/langgraph [#2538](https://github.com/langchain-ai/langgraph/issues/2538)**: **(✅ Closed)** Provided a minimal reproducible example which confirmed the bug report and led to its closure.
+| Repo                  | Issue                                                       | Contribution                                                                                                     | Status      |
+| --------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- |
+| `langchain-ai/langchain` | [#31335](https://github.com/langchain-ai/langchain/issues/31335) | Diagnosed an upstream bug in the model's chat template as the root cause. My analysis led to the issue's closure. | ✅ Closed   |
+| `langchain-ai/langgraph` | [#5165](https://github.com/langchain-ai/langgraph/issues/5165)   | Provided a minimal reproducible example (MRE) which confirmed the bug and helped lead to its closure.             | ✅ Closed   |
+| `langchain-ai/langgraph` | [#2538](https://github.com/langchain-ai/langgraph/issues/2538)   | Provided an MRE that confirmed the bug report, leading to its closure.                                           | ✅ Closed   |
 
 
 
