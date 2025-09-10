@@ -39,13 +39,14 @@ These efforts often involve complex code paths, legacy compatibility, and commun
 | crewAIInc/crewAI-tools | Fix agent crash in non-interactive shell | 🟡 Open | [#390](https://github.com/crewAIInc/crewAI-tools/pull/390) |
 | crewAIInc/crewAI | Prevent Pydantic coercion of state model | 🟡 Open | [#3218](https://github.com/crewAIInc/crewAI/pull/3218) |
 
-### Notable Issue Resolutions
+### Notable Issue Triage & Resolution
 
+- LangChain  
+  - [#31335](https://github.com/langchain-ai/langchain/issues/31335) — Diagnosed an upstream bug in the Qwen3-32B chat template as the root cause for structured output failures. My analysis led to the issue's closure by maintainers.
 - LangGraph  
   - [#5165](https://github.com/langchain-ai/langgraph/issues/5165) — MRE confirmed, helped close
   - [#2538](https://github.com/langchain-ai/langgraph/issues/2538) — MRE confirmed, helped close
-- LangChain  
-  - [#31335](https://github.com/langchain-ai/langchain/issues/31335) — Analyzed Qwen3-32B structured output error and coordinated compatibility discussion
+
 
 ---
 
